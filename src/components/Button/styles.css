@@ -1,0 +1,19 @@
+.button {
+    width: 100%;
+    background: rgb(1, 1, 78);
+    color: white;
+    border:none;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: transform 100ms ease-in-out;
+}
+
+.button:hover {
+    transform: scale(1.02);
+    background: linear-gradient(135deg, #07a7e3 0%, #32dac3 100%);
+  }
+
+.button:disabled {
+    background: #888;
+    cursor: not-allowed;
+}
